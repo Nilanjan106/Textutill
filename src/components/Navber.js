@@ -28,58 +28,6 @@ export default function Navber(props) {
                 Home
               </a>
             </li>
-            {/* <li className="nav-item">
-              <a className="nav-link" href="/about">
-              {props.aboutText}
-              </a>
-            </li> */}
-            </ul>
-            {/* <li className="nav-item dropdown"> */}
-              {/* <a
-                className="nav-link dropdown-toggle"
-                href="/"
-                id="navbarDropdown"
-                role="button"
-                data-bs-toggle="dropdown"
-                aria-expanded="false"
-              >
-                Dropdown
-              </a> */}
-              {/* <ul className="dropdown-menu" aria-labelledby="navbarDropdown">
-                <li>
-                  <a className="dropdown-item" href="/">
-                  About
-                  </a>
-                </li>
-                <li>
-                  <a className="dropdown-item" href="/">
-                    Another action
-                  </a>
-                </li>
-                <li className="dropdown-divider"></li>
-                <li>
-                  <a className="dropdown-item" href="/">
-                    Something else here
-                  </a>
-                </li>
-              </ul>
-            </li> */}
-            {/* <li className="nav-item">
-              <link
-                className="nav-link " */}
-                {/* to ="/about"
-                // tabIndex="-1"
-                // aria-disabled="true" */}
-              
-          
-              {/* </Link>
-            </li> */}
-
-          {/* <form className="d-flex">
-            <button className="btn btn-outline-success" type="submit">
-              Search
-            </button>
-          </form> */}
               <div className={`form-check form-switch my-3 text-${props.mode === 'light'?'dark':'light'}`}>
     <input className="form-check-input" onClick={props.toggleMode} type="checkbox" role="switch" id="flexSwitchCheckDefault"/>
     <label className="form-check-label" htmlFor="flexSwitchCheckDefault">dark mode</label>
